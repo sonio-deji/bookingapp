@@ -1,0 +1,33 @@
+.fp {
+    width: 100%;
+    display: flex;
+    max-width: 1024px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.fpitem {
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.fpimg {
+    width: 100%;
+}
+.fpname {
+    font-weight: bold;
+}
+.fpcity {
+    font-weight: 300;
+}
+.fprating>button {
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.fprating>span {
+    font-size: 14px;
+}
