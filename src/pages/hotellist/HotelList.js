@@ -9,9 +9,11 @@ import SearchItem from '../../components/searchitem/SearchItem';
 
 const Hotellist = () => {
     const location = useLocation();
+    //eslint-disable-next-line
     const [destination, setdestination] = useState(location.state.destination);
     const [date, setdate] = useState(location.state.date)
     const [opendate, setopendate] = useState(false)
+        //eslint-disable-next-line
  const [options, setoptions] = useState(location.state.options)
     return (
         <div>
