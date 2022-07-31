@@ -9,6 +9,11 @@
     display: flex;
     gap: 20px;
 }
+@media (max-width: 500px) {
+    .listwrapper {
+        flex-direction: column;
+    }
+}
 .listsearch {
     flex: 1;
     background-color: #febb02;

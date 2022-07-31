@@ -3,6 +3,7 @@ import './searchitem.css'
 function SearchItem() {
   return (
     <div className='searchitem'>
+        <div>
         <img src="./images/apartment room2.jpeg" alt="" className="siimg" />
         <div className="siDesc">
             <h1 className="siTitle">Tower Street Apartment </h1>
@@ -15,6 +16,8 @@ function SearchItem() {
                 You can cancel later, so lock in this great price today!
             </span>
             </div>
+        </div>
+        
         <div className="siDetails">
             <div className="sirating">
                 <span>Excellent</span>

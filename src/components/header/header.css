@@ -71,7 +71,7 @@
         align-items: flex-start;
     }
     .headerSearchItem {
-        padding: 10px;
+        padding-bottom: 10px;
     }
     .options {
         top: 100px;
