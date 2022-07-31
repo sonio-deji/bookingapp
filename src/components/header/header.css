@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 .headerSearch {
-    height: 40px;
+    height: max-fit;
     background-color: white;
     border: 3px solid #febb02;
     display: flex;
@@ -63,6 +63,11 @@
 @media (max-width: 650px) {
     .headerSearch {
         width: 95%;
+}
+@media (max-width: 500px) {
+    .headerSearch {
+        flex-direction: column;
+    }
 }
 }
 .headerIcon {
