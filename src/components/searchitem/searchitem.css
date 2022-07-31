@@ -7,6 +7,14 @@
     gap: 20px;
     margin-bottom: 20px;
 }
+@media (max-width: 600px) {
+    .searchitem {
+        flex-direction: column;
+    }
+    .siDetails {
+        flex-direction: column;
+    }
+}
 .siImg {
     width: 200px;
     height: auto;
