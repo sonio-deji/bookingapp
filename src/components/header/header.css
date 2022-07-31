@@ -63,6 +63,7 @@
 @media (max-width: 650px) {
     .headerSearch {
         width: 95%;
+        bottom: -55px;
 }
 }
 @media (max-width: 500px) {
